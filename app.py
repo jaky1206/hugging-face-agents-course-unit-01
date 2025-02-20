@@ -1,6 +1,5 @@
 from smolagents import CodeAgent, HfApiModel, load_tool, tool
 import datetime
-import requests
 import pytz
 import yaml
 from tools.final_answer import FinalAnswerTool
