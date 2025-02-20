@@ -1,7 +1,7 @@
 import os
 from huggingface_hub import InferenceClient
 
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]="hf_XXXXXXXXXXXXXXXxx"
 
 def get_weather(location):
     return f"the weather in {location} is sunny with low temperatures. \n"
