@@ -10,12 +10,12 @@
 
 ### Create a new conda environment
 ```shell
-conda create -n huggingface_agents_course
+conda create -n huggingface_agents_course-unit-01
 ```
 
 ### Activate the environment
 ```shell
-conda activate huggingface_agents_course
+conda activate huggingface_agents_course-unit-01
 ```
 
 ### Export configuration to a file
@@ -32,17 +32,17 @@ conda env create -f requirements.yml
 
 ### Create a new virtual environment
 ```shell
-python -m venv huggingface_agents_course
+python -m venv huggingface_agents_course-unit-01
 ```
 
 ### Activate the environment
 - On Windows:
   ```shell
-  huggingface_agents_course\Scripts\activate
+  huggingface_agents_course-unit-01\Scripts\activate
   ```
 - On macOS/Linux:
   ```shell
-  source huggingface_agents_course/bin/activate
+  source huggingface_agents_course-unit-01/bin/activate
   ```
 
 ### Install dependencies from a requirements file
