@@ -7,10 +7,11 @@ from tools.final_answer import FinalAnswerTool
 from tools.visit_webpage import VisitWebpageTool
 from tools.web_search import DuckDuckGoSearchTool
 import os
-
+from dotenv import load_dotenv
 from Gradio_UI import GradioUI
 
-os.environ["HF_TOKEN"]="hf_XXXXXXXXXXXXXXXxx"
+load_dotenv()
+os.environ["HF_TOKEN"]= os.getenv("HF_TOKEN")
 
 # Below is an example of a tool that does nothing. Amaze us with your creativity !
 @tool

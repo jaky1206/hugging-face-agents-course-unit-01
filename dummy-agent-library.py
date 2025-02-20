@@ -1,7 +1,9 @@
 import os
 from huggingface_hub import InferenceClient
+from dotenv import load_dotenv
 
-os.environ["HF_TOKEN"]="hf_XXXXXXXXXXXXXXXxx"
+load_dotenv()
+HF_TOKEN = os.getenv("HF_TOKEN")
 
 def get_weather(location):
     return f"the weather in {location} is sunny with low temperatures. \n"
