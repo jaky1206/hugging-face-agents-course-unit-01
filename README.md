@@ -1,4 +1,4 @@
-# Hugging Face Agents Course
+# Hugging Face Agents Course Unit 01
 
 - https://huggingface.co/learn/agents-course
 - https://github.com/huggingface/agents-course
